@@ -118,6 +118,14 @@ nav a{
     padding: 1rem;
 }
 
+.section3-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
 
 
 footer{
