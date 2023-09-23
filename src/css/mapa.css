@@ -1,0 +1,60 @@
+body {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5c70e1;
+}
+
+.norte {
+    fill: white;
+}
+
+.norte:hover {
+    fill: green;
+}
+
+.nordeste {
+    fill: white;
+}
+
+.nordeste:hover {
+    fill: red;
+}
+
+.centro-oeste {
+    fill: white;
+}
+
+.centro-oeste:hover {
+    fill: rgb(255, 183, 0);
+}
+
+.sudeste {
+    fill: white;
+}
+
+.sudeste:hover {
+    fill: yellow;
+}
+
+.sul {
+    fill: white;
+}
+
+.sul:hover {
+    fill: rgb(150, 53, 150);
+}
+
+path {
+    fill: #5c70e1;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+path:hover {
+    stroke-width: 1px;
+    transition: fill 0.4s;
+}
+
