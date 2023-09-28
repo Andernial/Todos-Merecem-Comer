@@ -31,6 +31,10 @@ nav a{
     height: 100vh;
     width: 100%;
     background-color: black;
+    background-image: url("/src/img/testeBanner1.png");
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
    
 }
 
