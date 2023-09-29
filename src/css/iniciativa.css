@@ -8,6 +8,11 @@
 .titleH2{
     text-align: center;
     font-size: 45px;
+    border-right: 4px solid;
+    width: 61ch;
+    white-space: nowrap; 
+    overflow: hidden;    
+    animation: typing 2.5s steps(61), blinking 0.5s infinite step-end alternate;
 }
 
 .barra-iniciativas{
@@ -22,7 +27,6 @@
 .section-ongs{
     display: flex;
     flex-direction: column;
-    height: 500px;
     align-items: center;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -36,7 +40,7 @@
     column-gap: 0px;
     width: 100%;
     padding: 20px;
-
+    color: black;
 }
 
 .ong-item{
@@ -56,3 +60,16 @@
    
 }
 
+@keyframes typing{
+    from {
+        width: 0;
+
+    }
+}
+
+
+@keyframes blinking{
+    50% {
+        border-color: transparent;
+    }
+}
