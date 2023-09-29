@@ -54,16 +54,17 @@ nav a{
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
     padding-bottom: 2rem;
+
     
 }
-.content2{
+
+.content4{
     display: flex;
     flex-direction: column;
-    height: 700px;
+    height: 500px;
     
 }
 .content3{
@@ -75,6 +76,31 @@ nav a{
     text-align: center;
 }
 
+.conteudos-block{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.title-content{
+
+  width: 100%;
+}
+.side-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.text-information{
+    width: 50%;
+    padding: 2rem;
+    padding-left: 10rem;
+}
+.conteudos-image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
 .card-text{
     width: 50%;
@@ -101,19 +127,30 @@ nav a{
 
 }
 
+.middle-block{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    width: 30%;
+}
+
 .left-block, .right-block{
     width: 20%;
-    height: 100px;
+    height: fit-content;
     border: 1px solid black;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.46);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.46);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.46);
     padding: 1rem;
+
+
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .barra-information{
     width: 100%;
-    height: 500px;
+    height: 100px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -144,6 +181,13 @@ nav a{
     width: 100%;
 }
 
+#imagem-conteudos{
+    width: 400px;
+    height: 500px;
+}
+.Bold{
+    font-weight: bold;
+}
 
 footer{
     text-align: center;
