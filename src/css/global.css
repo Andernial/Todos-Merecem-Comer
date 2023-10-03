@@ -53,6 +53,7 @@ nav a {
     background: none;
     border-top: 3px solid white;
     cursor: pointer;
+   
 }
 
 
@@ -60,10 +61,10 @@ nav a {
 .botao-lista::before {
     content: " ";
     display: block;
-    width: 30px;
+    width: 20px;
     height: 3px;
     background: white;
-    margin-top: 5px;
+    margin-top: 3px;
     position: relative;
     transition: 0.3s;
 }
@@ -243,6 +244,12 @@ footer {
 
 
 @media screen and (max-width: 500px) {
+
+    nav{
+        background-color: #e6e85b;
+        padding: 0.4rem;
+    }
+
     .nav-list {
         position: fixed;
         top: 0;
@@ -335,6 +342,7 @@ footer {
 
     .titleH1 {
         font-size: 34px;
+
     }
 
     .titleH2 {
@@ -343,11 +351,12 @@ footer {
     }
 
     .titulo-pagina {
-        width: 90%;
+        width: 70%;
     }
 
     .titulo-paginaH1 {
         font-size: 20px;
+       
     }
 
     .conteudos-block {
