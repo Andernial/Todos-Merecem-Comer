@@ -387,9 +387,29 @@ footer {
         flex-direction: column;
     }
 
-    #imagem-conteudos2 {
-        max-width: 300px;
+    .title-placeholder{
+        font-size: 20px;
     }
+
+    .left-block, .right-block{
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .middle-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        width: auto;
+    }
+    
+
+    #imagem-conteudos2 {
+        max-width: 281px;
+        max-height: 200px;
+    }
+    
 
 
 }
