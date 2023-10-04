@@ -58,8 +58,35 @@
 .ong-image{
     height: 100px;
     width: 120px;
+  
    
 }
+
+.section3-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.section3-text2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#iniciativas-img{
+    width: 200px;
+    height: 300px;
+}
+
+#text2{
+    width: 20ch;
+}
+
+
 
 @keyframes typing{
     from {

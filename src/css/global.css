@@ -100,7 +100,7 @@ nav a {
 .content4 {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    
 
 }
 
@@ -213,26 +213,39 @@ nav a {
     padding: 1rem;
 }
 
-.section3-content {
+
+
+.section3-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+}
+
+.causas-block{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    height: 100%;
 }
 
-.section3-image {
+.section3-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
+    padding: 5rem;
 }
 
-#imagem-conteudos,
-#imagem-conteudos2 {
+#imagem-conteudos{
     width: 400px;
     height: 500px;
 }
+#imagem-conteudos2 {
+    width: 400px;
+    height: 700px;
+}
 
-.Bold {
+.bold {
     font-weight: bold;
 }
 
