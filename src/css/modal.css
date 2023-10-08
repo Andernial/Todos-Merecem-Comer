@@ -13,19 +13,33 @@
     
 }
 
-.conteudo-modal-nordeste{
+.conteudo-modal{
    background-color: white;
    width: 100vh;
    height: 80vh;  
    overflow: auto;  
 }
 
-#close-modal{
+.close-modal{
     display: flex;
     justify-content: flex-end;
     padding-top: 1rem;
     padding-right: 1rem;
+    
 }
+
+
+#close-modal-no, #close-modal-ne, #close-modal-co, #close-modal-sd{
+    background-color: inherit;
+    transition: 0.4s;
+}
+
+
+#close-modal-no:hover, #close-modal-ne:hover, #close-modal-co:hover,  #close-modal-sd:hover{
+    background-color: red;
+    color: white;
+}
+
 
 .layout{
     background-color: rgb(246, 248, 102);
@@ -60,8 +74,8 @@
 
 .ong-image:hover {
     padding: 1rem;
-    height: 8.2rem;
-    width: 8.2rem;
+    height: 8.5rem;
+    width: 8.5rem;
 
 }
 
@@ -77,8 +91,12 @@
 }
 
 .region-name{
-    display: flex;
-    justify-content: center;
+    margin-left: 15rem;
+    border-right: 4px solid;
+    width: 18ch;
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: typing 2s steps(18), blinking 0.5s infinite step-end alternate;
 }
 
 .data{
@@ -89,7 +107,37 @@
     font-size: 0.8rem;
 }
 
+.first-p{
 
+    width: 50ch;
+    white-space: nowrap;
+    overflow: hidden; 
+    animation: typing 1s steps(50);
+}
+
+.second-p {
+    width: 50ch;
+    white-space: nowrap;
+    overflow: hidden; 
+    animation: typing 1.5s steps(50);
+}
+
+@keyframes typing{
+    from {
+        width: 0;
+
+    }
+}
+
+@keyframes blinking{
+    50% {
+        border-color: transparent;
+    }
+}
+
+.more-ongs{
+    margin-left: 2rem;
+}
 
 
 
