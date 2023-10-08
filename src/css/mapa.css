@@ -10,48 +10,30 @@ svg{
     height: 50%;
 }
 
-.norte {
+.estado{
     fill: white;
-}
-
-.norte:hover {
-    fill: green;
+    transition: fill 0.4s;
     cursor: pointer;
 }
 
-.nordeste {
-    fill: white;
-}
-
-.nordeste:hover {
+.regiao_norte:hover .estado{
     fill: red;
 }
 
-.centro-oeste {
-    fill: white;
+.regiao_nordeste:hover .estado{
+    fill: red;
 }
 
-.centro-oeste:hover {
+.regiao_centro_oeste:hover .estado{
     fill: rgb(255, 183, 0);
-    cursor: pointer;
 }
 
-.sudeste {
-    fill: white;
+.regiao_sudeste:hover .estado{
+    fill: #21cc32;
 }
 
-.sudeste:hover {
-    fill: yellow;
-    cursor: pointer;
-}
-
-.sul {
-    fill: white;
-}
-
-.sul:hover {
-    fill: rgb(150, 53, 150);
-    cursor: pointer;
+.regiao_sul:hover .estado{
+    fill: green;
 }
 
 path {
@@ -59,11 +41,4 @@ path {
     stroke: black;
     stroke-width: 1px;
 }
-
-path:hover {
-    stroke-width: 1px;
-    transition: fill 0.4s;
-    cursor: pointer;
-}
-
 
