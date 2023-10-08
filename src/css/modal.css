@@ -29,13 +29,13 @@
 }
 
 
-#close-modal-no, #close-modal-ne, #close-modal-co, #close-modal-sd{
+#close-modal-no, #close-modal-ne, #close-modal-co, #close-modal-sd, #close-modal-sul{
     background-color: inherit;
     transition: 0.4s;
 }
 
 
-#close-modal-no:hover, #close-modal-ne:hover, #close-modal-co:hover,  #close-modal-sd:hover{
+#close-modal-no:hover, #close-modal-ne:hover, #close-modal-co:hover,  #close-modal-sd:hover, #close-modal-sul:hover{
     background-color: red;
     color: white;
 }
@@ -136,7 +136,19 @@
 }
 
 .more-ongs{
-    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    background-color: inherit;
+    box-shadow: 7px 8px 0px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+.more-ongs:active{
+    box-shadow: inset 8px 8px 0px -3px rgba(0,0,0,0.75);
+    font-size: 0.8rem;
+
+    
 }
 
 
