@@ -153,6 +153,7 @@
     }
     .ong-item > p{
         font-size: 15px;
+        padding-bottom: 20px;
     }
     .section3-text{
         display: flex;
@@ -160,6 +161,10 @@
         text-align: start;
         font-size: 15px;
         padding: 1rem;
+    }
+
+    #iniciativas-img{
+        width: 100px;
     }
 
 }

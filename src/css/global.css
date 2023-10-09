@@ -195,6 +195,7 @@ nav a {
     font-size: 30px;
     line-height: 30px;
     width: 30%;
+    padding-top: 2rem;
 }
 
 .left-block,
@@ -387,9 +388,19 @@ footer {
         background-size: 100vw 47vh;
     }
 
+    .meio-banner > p {
+        text-align: center;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
     #imagem-conteudos {
         width: 300px;
         height: 200px;
+    }
+
+    .block-text{
+        padding: 0;
     }
 
     .titleH1 {
@@ -437,6 +448,7 @@ footer {
 
     .text-block {
         flex-direction: column;
+        padding-top: 2rem;
     }
 
     .title-placeholder{
@@ -461,7 +473,52 @@ footer {
         max-width: 281px;
         max-height: 200px;
     }
+
+    .content3 > h1 {
+        font-size: 15px;
+        padding-bottom: 1rem;
+    }
+
+    .content3-text{
+        flex-direction: column;
+        display: flex;
+        width: 27ch;
+        text-align: center;
+    }
+
+    .content3-text2 {
+        width: 27ch;
+        text-align: center;
+    }
+    
+    .barra-information{
+        height: 150px;
+    }
+    
+
+    
+    .content3-text > p{
+        font-size: 15px;
+    }
+    .content3-text2 > p{
+        font-size: 15px;
+    }
+    
     
 
 
-}
+    .causas-block{
+        flex-direction: column;
+    }
+
+    .section3-img{
+        padding-top: 2rem;
+    }
+    .section3-text > h1{
+        font-size: 18px;
+        text-align: center;
+        width: 33ch;
+        line-height: 25px;
+    }
+    }
+    
