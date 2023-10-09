@@ -30,8 +30,8 @@
 
 
 #close-modal-no, #close-modal-ne, #close-modal-co, #close-modal-sd, #close-modal-sul{
-    background-color: rgb(246, 248, 102);
-    box-shadow: 3px 4px 0px 0px rgb(214, 216, 81);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 4px 0px 0px rgb(200, 199, 199);
     color: black;
     transition: 0.4s;
     cursor: pointer;
@@ -62,8 +62,20 @@
 .ongs-distribuiton{
     background-color: white;
     height: 90vh;
-    
+    transition: 0.4s;
+    box-shadow:  inset 44px -9px 59px -56px rgba(0, 0, 0, 0.986);  
 }
+
+.ongs-distribuiton:hover{
+    box-shadow: 0px 0px 49px -6px rgba(0, 0, 0, 0.986);
+    transition: 0.4s;  
+}
+
+
+
+
+
+
 
 
 
@@ -80,13 +92,14 @@
     height: 8rem;
     width: 8rem;
     transition: 0.4s;
+    filter: grayscale(100%)
 }
 
 .ong-image:hover {
     padding: 1rem;
     height: 8.5rem;
     width: 8.5rem;
-
+    filter: grayscale(0%)
 }
 
 .region-info{
@@ -157,6 +170,12 @@
 .data{
    margin-left: 2.2rem; 
    cursor: pointer;
+   filter: grayscale(100%);
+   transition: 0.4s;
+}
+
+.data:hover{
+    filter: grayscale(0%)
 }
 
 .graphic-explain{
@@ -184,15 +203,15 @@
     justify-content: center;
     margin-left: 1rem;
     padding: 0.8rem;
-    background-color: rgb(246, 248, 102);
-    box-shadow: 7px 8px 0px 0px rgb(214, 216, 81);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 7px 8px 0px 0px rgb(200, 199, 199);
     cursor: pointer;
 
 }
 .more-ongs:active{
     box-shadow: inherit;
     font-size: 0.8rem;
-    box-shadow: inset 5px 5px 0px 3px rgb(214, 216, 81);
+    box-shadow: inset 5px 5px 0px 3px rgb(200, 199, 199);
     cursor: progress;
 
     
