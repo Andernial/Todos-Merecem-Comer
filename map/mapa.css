@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5c70e1;
+}
+
+svg{
+    width: 45%;
+    height: 50%;
+}
+
+.estado{
+    fill: white;
+    transition: fill 0.4s;
+    cursor: pointer;
+}
+
+.regiao_norte:hover .estado{
+    fill: red;
+}
+
+.regiao_nordeste:hover .estado{
+    fill: red;
+}
+
+.regiao_centro_oeste:hover .estado{
+    fill: rgb(255, 183, 0);
+}
+
+.regiao_sudeste:hover .estado{
+    fill: #21cc32;
+}
+
+.regiao_sul:hover .estado{
+    fill: green;
+}
+
+path {
+    fill: #5c70e1;
+    stroke: black;
+    stroke-width: 1px;
+}
+
