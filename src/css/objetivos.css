@@ -1,0 +1,144 @@
+.area-banner2{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+}
+
+.title-objetivos{
+    font-size: 60px;
+    text-align: center;
+    font-size: 49px;
+    text-align: center;
+    line-height: 50px;
+    padding: 3rem;
+}
+
+.content-obj{
+    display: flex;
+    flex-direction: column;
+    width: 100;
+    padding: 2rem;
+}
+.content-obj2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(246, 248, 102);
+}
+
+
+.obj-block{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.obj-text{
+    display: flex;
+    background-color: brown;
+    width: 50%;
+    padding: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.obj-text2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.obj-text2 p{
+    background-color: brown;
+    padding: 3rem;
+    width: 60ch;
+   margin-right: 20px;
+}
+
+#metas-ods{
+    width: 1000px;
+    height: 500px;
+}
+
+.obj-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+   
+.red{
+    color: rgb(237, 47, 63);
+    font-size: 50px; 
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title-final{
+    padding-top: 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.text-final{
+    width: 86ch;
+    line-height: 50px;
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.text-final > p {
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .title-objetivos{
+        font-size: 20px;
+        line-height: 30px;
+        padding: 1rem;
+    }
+
+    .obj-text{
+        width: 100%;
+    }
+
+    #metas-ods{
+        width: 300px;
+        height: 400px;
+    }
+
+
+    .red{
+        font-size: 20px;
+       
+    }
+
+    .text-final p {
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 2rem;
+        
+    }
+    .text-final{
+        width: 26ch;
+        padding: 0;
+    }
+}
