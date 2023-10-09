@@ -5,11 +5,50 @@
     box-sizing: border-box;
 }
 
-.area-banner {
-    font-size: 20px;
-    font-style: italic;
-    text-shadow: 2px 2px 4px black;
+.container{
+    display: flex;
+    height: 50vw;
+    width: 100%;
+    overflow: hidden;
 }
+
+.img-container{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translateX(0%);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
 
 .titleH1 {
     margin: 2rem;
@@ -75,23 +114,9 @@ nav a {
     transition: 0.3s;
 }
 
-.area-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-    background-image: url("/src/img/testeBanner2.JPG");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
 
-}
 
-.meio-banner {
-    color: white;
-}
+
 
 .content {
     display: flex;
@@ -291,13 +316,6 @@ nav a {
     font-weight: bold;
 }
 
-#bannerP{
-    text-shadow: 0px 3px black;
-    font-weight: bold;
-    font-size: 34px;
-    text-align: center;
-    background-color: #00000080;
-}
 
 
 footer {
@@ -386,24 +404,8 @@ footer {
         top: -7px;
     }
 
-    .area-banner {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 87vh;
-        width: 100%;
-        background-color: black;
-        background-image: url("./src/img/testeBanner2.JPG");
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 100vw 47vh;
-    }
 
-    .meio-banner > p {
-        text-align: center;
-        font-size: 17px;
-        line-height: 30px;
-    }
+    .
 
     #imagem-conteudos {
         width: 300px;
@@ -627,24 +629,9 @@ footer {
 
 
 
-                    .area-banner {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        height: 87vh;
-                        width: 100%;
-                        background-color: black;
-                        background-image: url("./src/img/testeBanner2.JPG");
-                        background-position: center center;
-                        background-repeat: no-repeat;
-                        background-size: 100vw 47vh;
-                    }
+                   
                 
-                    .meio-banner > p {
-                        text-align: center;
-                        font-size: 17px;
-                        line-height: 30px;
-                    }
+                 
                 
                     #imagem-conteudos {
                         width: 300px;
