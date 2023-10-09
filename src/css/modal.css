@@ -8,9 +8,8 @@
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.7);
-    
+    overflow: auto; 
+    backdrop-filter: blur(5px);
 }
 
 .conteudo-modal{
@@ -18,6 +17,7 @@
    width: 100vh;
    height: 80vh;  
    overflow: auto;  
+   border-radius: 5px;
 }
 
 .close-modal{
@@ -38,17 +38,9 @@
     border-radius: 20px;
 }
 
-
-#close-modal-no:hover, #close-modal-ne:hover, #close-modal-co:hover,  #close-modal-sd:hover, #close-modal-sul:hover{
-    background-color: red;
-    box-shadow: 3px 4px 0px 0px rgba(184, 1, 1, 0.83);
-    color: white;
-    
-}
 #close-modal-no:active, #close-modal-ne:active, #close-modal-co:active,  #close-modal-sd:active, #close-modal-sul:active{
-    box-shadow: inset 3px 4px 0px 0px rgba(184, 1, 1, 0.83);
-    color: white;
     cursor: progress;
+    box-shadow:inset 3px 4px 0px 0px rgb(200, 199, 199);
 }
 
 
@@ -61,7 +53,7 @@
 
 .ongs-distribuiton{
     background-color: white;
-    height: 90vh;
+    height: 100vh;
     transition: 0.4s;
     box-shadow:  inset 44px -9px 59px -56px rgba(0, 0, 0, 0.986);  
 }
@@ -70,14 +62,6 @@
     box-shadow: 0px 0px 49px -6px rgba(0, 0, 0, 0.986);
     transition: 0.4s;  
 }
-
-
-
-
-
-
-
-
 
 .ong-div{
     display: flex;
@@ -111,7 +95,11 @@
 .info{
     font-size: 1.5rem;
     margin: 1rem;
+    background-color: white;
+    box-shadow: inset 0px 1px 62px -20px rgba(0,0,0,0.67);   
+
 }
+
 
 .region-sul-name{
     margin-left: 17rem;
@@ -170,20 +158,17 @@
 .data{
    margin-left: 2.2rem; 
    cursor: pointer;
-   filter: grayscale(100%);
-   transition: 0.4s;
 }
 
-.data:hover{
-    filter: grayscale(0%)
-}
 
 .graphic-explain{
     font-size: 0.8rem;
 }
 
 .first-p{
-
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 1.5rem;
     width: 50ch;
     white-space: nowrap;
     overflow: hidden; 
@@ -191,10 +176,12 @@
 }
 
 .second-p {
+    margin: 1.5rem;
     width: 50ch;
     white-space: nowrap;
     overflow: hidden; 
     animation: typing 1.5s steps(50);
+    padding-bottom: 1rem;
 }
 
 
@@ -219,6 +206,7 @@
 
 .some-ongs{
     margin-left: 1rem;
+    font-size: 1rem;
 }
 
 
