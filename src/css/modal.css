@@ -101,6 +101,7 @@
 
 .data{
    margin-left: 2.2rem; 
+   cursor: pointer;
 }
 
 .graphic-explain{
@@ -122,18 +123,6 @@
     animation: typing 1.5s steps(50);
 }
 
-@keyframes typing{
-    from {
-        width: 0;
-
-    }
-}
-
-@keyframes blinking{
-    50% {
-        border-color: transparent;
-    }
-}
 
 .more-ongs{
     display: flex;
@@ -151,7 +140,24 @@
     
 }
 
+.some-ongs{
+    margin-left: 1rem;
+}
 
+
+
+@keyframes typing{
+    from {
+        width: 0;
+
+    }
+}
+
+@keyframes blinking{
+    50% {
+        border-color: transparent;
+    }
+}
 
 
 
