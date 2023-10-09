@@ -32,6 +32,7 @@
 #close-modal-no, #close-modal-ne, #close-modal-co, #close-modal-sd, #close-modal-sul{
     background-color: inherit;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 
@@ -90,13 +91,58 @@
     margin: 1rem;
 }
 
-.region-name{
+.region-sul-name{
+    margin-left: 15rem;
+    border-right: 4px solid;
+    width: 9ch;
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: typing 1s steps(9), blinking 0.5s infinite step-end alternate;
+}
+
+.region-sudeste-name{
+    margin-left: 15rem;
+    border-right: 4px solid;
+    width: 13ch;
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: typing 1.5s steps(13), blinking 0.5s infinite step-end alternate;
+}
+
+.region-sudeste-name{
+    margin-left: 15rem;
+    border-right: 4px solid;
+    width: 13ch;
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: typing 1.5s steps(13), blinking 0.5s infinite step-end alternate;
+}
+
+.region-centro-oeste-name{
     margin-left: 15rem;
     border-right: 4px solid;
     width: 18ch;
     white-space: nowrap; 
     overflow: hidden; 
-    animation: typing 2s steps(18), blinking 0.5s infinite step-end alternate;
+    animation: typing 1.5s steps(18), blinking 0.5s infinite step-end alternate;
+}
+
+.region-norte-name{
+    margin-left: 15rem;
+    border-right: 4px solid;
+    width: 12ch;
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: typing 1.5s steps(12), blinking 0.5s infinite step-end alternate;
+}
+
+.region-nordeste-name{
+    margin-left: 15rem;
+    border-right: 4px solid;
+    width: 14ch;
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: typing 1.5s steps(14), blinking 0.5s infinite step-end alternate;
 }
 
 .data{
