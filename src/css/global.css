@@ -14,11 +14,13 @@
 .titleH1 {
     margin: 2rem;
     font-size: 50px;
+    
 }
 
 .titleH2 {
     margin: 2rem;
     font-size: 50px;
+    text-align: center;
 }
 
 .main-title {
@@ -178,7 +180,7 @@ nav a {
     background-color: black;
     color: white;
     justify-content: center;
-    height: 100px;
+    height: 150px;
 }
 
 .text-block {
@@ -521,4 +523,6 @@ footer {
         line-height: 25px;
     }
     }
-    
+
+
+   
