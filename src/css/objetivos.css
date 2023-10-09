@@ -142,3 +142,44 @@
         padding: 0;
     }
 }
+
+
+@media only screen and (min-device-width: 0px) 
+                   and (max-device-width: 699px) 
+                   and (orientation: landscape) {
+
+
+                    .title-objetivos{
+                        font-size: 20px;
+                        line-height: 30px;
+                        padding: 1rem;
+                    }
+                
+                    .obj-text{
+                        width: 100%;
+                    }
+                
+                    #metas-ods{
+                        width: 300px;
+                        height: 400px;
+                    }
+                
+                
+                    .red{
+                        font-size: 20px;
+                       
+                    }
+                
+                    .text-final p {
+                        font-size: 20px;
+                        line-height: 30px;
+                        padding-top: 2rem;
+                        
+                    }
+                    .text-final{
+                        width: 26ch;
+                        padding: 0;
+                    }
+                }
+
+                   
