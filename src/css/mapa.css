@@ -2,11 +2,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #5c70e1;
 }
 
 svg{
-    width: 45%;
+    margin-top: 10rem;
+    width: 30%;
     height: 50%;
 }
 
@@ -37,7 +37,7 @@ svg{
 }
 
 path {
-    fill: #5c70e1;
+    
     stroke: black;
     stroke-width: 1px;
 }
