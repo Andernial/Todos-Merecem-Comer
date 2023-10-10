@@ -97,8 +97,8 @@
     z-index: 100;
 }
 
+
 nav a {
-    margin-left: 1rem;
     text-decoration: none;
     color: black;
     font-size: 18px;
@@ -110,11 +110,13 @@ nav a {
     flex-direction: row;
     list-style: none;
     transition: all 0.5s ease;
+    justify-content: space-around;
+    width: 250px;
 }
 
 .link-menu:hover {
-    color: #87781d;
-   
+    color: #ffffff;
+   transition: 0.5s;
 }
 
 .link-menu::after {
@@ -125,11 +127,12 @@ nav a {
     border-radius: 100px;
     transition: all 0.5s ease;
     background-color: #cfc91b97;
+   
     
 }
 
 .link-menu:hover::after {
-    width: 110%;
+    width: 100%;
 }
 
 .botao-lista {
