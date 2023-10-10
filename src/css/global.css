@@ -101,7 +101,7 @@
 nav a {
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -111,7 +111,7 @@ nav a {
     list-style: none;
     transition: all 0.5s ease;
     justify-content: space-around;
-    width: 250px;
+    width: 320px;
 }
 
 .link-menu:hover {
