@@ -30,9 +30,7 @@
 }
 
 
-.content4 {
-    height: 500px;
-}
+
 
 .content4-h1{
     display: flex;
@@ -41,6 +39,7 @@
     margin-bottom: 15px;
     margin-top: 15px;
     font-size: 32px;
+    text-align: center;
 }
 
 .section-ongs {
@@ -99,6 +98,11 @@
     height: 300px;
 }
 
+
+#iniciativas2-img{
+    width: 193px;
+}
+
 #text2 {
     width: 20ch;
 }
@@ -106,6 +110,7 @@
 .section3-img{
     display: flex;
     flex-direction: column;
+    padding: 2rem;
 }
 
 .section4-img{
@@ -113,6 +118,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 
 }
 
@@ -222,6 +228,7 @@
         font-size: 30px;
 
     }
+
 
 
 }
