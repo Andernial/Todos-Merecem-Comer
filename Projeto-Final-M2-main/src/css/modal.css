@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.modal{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 110%;
+    backdrop-filter: blur(5px);
+
+}
+
+.conteudo-modal{
+   background-color: white;
+   width: 70vh;
+   height: 70vh;  
+   overflow: scroll;
+   border-radius: 5px;
+   overflow:scroll;
+}
+
+.close-modal{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    
+}
+
+
+#close-modal-no, #close-modal-ne, #close-modal-co, #close-modal-sd, #close-modal-sul{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 4px 0px 0px rgb(200, 199, 199);
+    color: black;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#close-modal-no:active, #close-modal-ne:active, #close-modal-co:active,  #close-modal-sd:active, #close-modal-sul:active{
+    cursor: progress;
+    box-shadow:inset 3px 4px 0px 0px rgb(200, 199, 199);
+}
+
+
+.layout{
+    background-color: rgb(246, 248, 102);
+    display: flex;
+    flex-direction:;
+    position: relative;
+}
+
+.ongs-distribuiton{
+    background-color: white;
+    height: 100vh;
+    transition: 0.4s;
+    box-shadow:  inset 44px -9px 59px -56px rgba(0, 0, 0, 0.986);  
+}
+
+.ongs-distribuiton:hover{
+    box-shadow: 0px 0px 49px -6px rgba(0, 0, 0, 0.986);
+    transition: 0.4s;  
+}
+
+.ong-div{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+
+
+.ong-image{
+    padding: 1rem;
+    height: 8rem;
+    width: 8rem;
+    transition: 0.4s;
+    filter: grayscale(100%)
+}
+
+.ong-image:hover {
+    padding: 1rem;
+    height: 8.5rem;
+    width: 8.5rem;
+    filter: grayscale(0%)
+}
+
+.region-info{
+    position: relative;
+    width: 90rem;
+    margin-top: 2rem;
+}
+
+.info{
+    font-size: 1.5rem;
+    margin: 1rem;
+    background-color: white;
+    box-shadow: inset 0px 1px 62px -20px rgba(0,0,0,0.67); 
+    width: 370px;
+
+
+}
+
+
+.region-sul-name{
+    margin-left: 5rem;
+    border-right: 4px solid;
+    width: 9ch; 
+    overflow: hidden; 
+    animation: typing 1s steps(9), blinking 0.5s infinite step-end alternate;
+}
+
+.region-sudeste-name{
+    margin-left: 5rem;
+    border-right: 4px solid;
+    width: 13ch; 
+    overflow: hidden; 
+    animation: typing 1.5s steps(13), blinking 0.5s infinite step-end alternate;
+}
+
+.region-sudeste-name{
+    margin-left: 5rem;
+    border-right: 4px solid;
+    width: 13ch; 
+    overflow: hidden; 
+    animation: typing 1.5s steps(13), blinking 0.5s infinite step-end alternate;
+}
+
+.region-centro-oeste-name{
+    margin-left: 5rem;
+    border-right: 4px solid;
+    width: 18ch;
+    overflow: hidden; 
+    animation: typing 1.5s steps(18), blinking 0.5s infinite step-end alternate;
+}
+
+.region-norte-name{
+    margin-left: 5rem;
+    border-right: 4px solid;
+    width: 12ch; 
+    overflow: hidden; 
+    animation: typing 1.5s steps(12), blinking 0.5s infinite step-end alternate;
+}
+
+.region-nordeste-name{
+    margin-left: 5rem;
+    border-right: 4px solid;
+    width: 14ch; 
+    overflow: hidden; 
+    animation: typing 1.5s steps(14), blinking 0.5s infinite step-end alternate;
+}
+
+.data{
+   margin-left: 2.2rem; 
+   cursor: pointer;
+}
+
+
+.graphic-explain{
+    font-size: 0.8rem;
+    display: flex;
+}
+
+.first-p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 1.5rem;
+    width: 25px;
+    animation: typing 1.5s steps(50);
+    display: inline;
+}
+
+.second-p {
+    margin: 1.5rem;
+    width: 50ch;
+    overflow: hidden; 
+    animation: typing 1.5s steps(50);
+    padding-bottom: 1rem;
+    display: inline;
+}
+
+
+.more-ongs{
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    padding: 0.8rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 7px 8px 0px 0px rgb(200, 199, 199);
+    cursor: pointer;
+
+}
+.more-ongs:active{
+    box-shadow: inherit;
+    font-size: 0.8rem;
+    box-shadow: inset 5px 5px 0px 3px rgb(200, 199, 199);
+    cursor: progress;
+
+    
+}
+
+.some-ongs{
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+
+
+@keyframes typing{
+    from {
+        width: 0;
+
+    }
+}
+
+@keyframes blinking{
+    50% {
+        border-color: transparent;
+    }
+}
+
+@media screen and (max-width= 600px){ 
+    .modal {
+        flex-direction: column
+    }
+}
+
