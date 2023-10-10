@@ -548,17 +548,11 @@ footer {
     .content3-text2>p {
         font-size: 15px;
     }
-<<<<<<< HEAD
-    
-    
-    .causas-block{
-=======
 
 
 
 
     .causas-block {
->>>>>>> 740effad1b15ba686b037df6f6d4d50b32547715
         flex-direction: column;
     }
 
@@ -572,10 +566,6 @@ footer {
         width: 33ch;
         line-height: 25px;
     }
-<<<<<<< HEAD
-
-
-=======
 }
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 699px) and (orientation: landscape) {
@@ -583,7 +573,6 @@ footer {
     nav {
         background-color: #e6e85b;
         padding: 0.4rem;
->>>>>>> 740effad1b15ba686b037df6f6d4d50b32547715
     }
 
     .container{
