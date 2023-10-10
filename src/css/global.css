@@ -1,3 +1,15 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Enriqueta&display=swap');
+
+
+
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -141,6 +153,7 @@ nav a {
     text-align: center;
     font-size: 50px;
     margin-top: 35px;
+    margin-bottom: 20px;
 }
 
 .subtitle{
@@ -153,6 +166,7 @@ nav a {
 .subtitle-p{
     font-size: 30px;
     margin-top: 50px;
+   
 }
 
 .content4 {
@@ -186,7 +200,11 @@ nav a {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    font-style: italic;
+    font-style: normal;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #333333;
+    
+   
 }
 
 .block-text {
@@ -444,6 +462,8 @@ footer {
 
     .block-text {
         padding: 0;
+        font-family: 'Enriqueta', serif;
+        font-style: normal;
     }
 
     .titleH1 {
