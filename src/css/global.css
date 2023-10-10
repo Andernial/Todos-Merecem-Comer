@@ -114,7 +114,7 @@ nav a {
 
 .link-menu:hover {
     color: #87781d;
-    letter-spacing: 2px;
+   
 }
 
 .link-menu::after {
@@ -125,6 +125,7 @@ nav a {
     border-radius: 100px;
     transition: all 0.5s ease;
     background-color: #cfc91b97;
+    
 }
 
 .link-menu:hover::after {
