@@ -148,8 +148,12 @@ nav a {
 }
 
 
+.information{
+    font-size: 20px;
+}
 
-.título-h1{
+
+.titulo-h1{
     text-align: center;
     font-size: 50px;
     margin-top: 35px;
@@ -480,6 +484,10 @@ footer {
         width: 70%;
     }
 
+    .titulo-h1{
+        font-size: 26px;
+    }
+
     .titulo-paginaH1 {
         font-size: 20px;
 
@@ -585,6 +593,14 @@ footer {
         text-align: center;
         width: 33ch;
         line-height: 25px;
+    }
+
+    .section3-text{
+        padding: 2rem;
+    }
+
+    .information{
+        font-size: 16px;
     }
 }
 
