@@ -109,6 +109,26 @@ nav a {
     display: flex;
     flex-direction: row;
     list-style: none;
+    transition: all 0.5s ease;
+}
+
+.link-menu:hover {
+    color: #87781d;
+    letter-spacing: 2px;
+}
+
+.link-menu::after {
+    content: "";
+    display: flex;
+    width: 0;
+    height: 3px;
+    border-radius: 100px;
+    transition: all 0.5s ease;
+    background-color: #cfc91b97;
+}
+
+.link-menu:hover::after {
+    width: 110%;
 }
 
 .botao-lista {
