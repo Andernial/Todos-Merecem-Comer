@@ -18,6 +18,13 @@ var closeModalSudeste = document.getElementById("close-modal-sd")
 var closeModalSudeste = document.getElementById("close-modal-sd")
 var closeModalSul = document.getElementById("close-modal-sul")
 
+const botao = document.getElementById('saiba-mais')
+
+
+botao.addEventListener('click', () =>{
+    location.href = "./Iniciativas.html"
+})
+
 
 modalNordeste.addEventListener("click", () => {
     modalNE.style.display = "flex"
