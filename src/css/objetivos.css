@@ -58,7 +58,7 @@
     line-height: 1.5;
 }
 
-.obj-text2{
+.obj-text2, .obj-text3{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -68,6 +68,12 @@
     margin-bottom: 1rem;
 }
 
+
+#metas-ods2{
+    display: none;
+}
+
+
 .obj-text2 p{
     background-color: brown;
     padding: 3rem;
@@ -76,8 +82,8 @@
 }
 
 #metas-ods{
-    width: 1000px;
-    height: 500px;
+    width: 1500px;
+    height: 1000px;
 }
 
 .obj-content{
@@ -118,6 +124,10 @@
 
 @media screen and (max-width: 500px) {
 
+    .title-final{
+        width: 96%;
+    }
+
     .title-objetivos{
         font-size: 20px;
         line-height: 30px;
@@ -140,14 +150,33 @@
     }
 
     .text-final p {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 30px;
         padding-top: 2rem;
         
     }
+
+    .obj-text p {
+        font-size: 15px;
+    }
+
     .text-final{
         width: 26ch;
         padding: 0;
+    }
+
+    #metas-ods{
+        display: none;
+    }
+    
+    #metas-ods2{
+       display: block;
+       width: 500px;
+       height: 300px;
+    }
+
+    .title-objetivos{
+        font-size: 19px;
     }
 }
 
@@ -162,15 +191,23 @@
                         line-height: 30px;
                         padding: 1rem;
                     }
+                    
+                  
                 
                     .obj-text{
                         width: 100%;
                     }
                 
                     #metas-ods{
-                        width: 300px;
-                        height: 400px;
+                        display: none;
                     }
+
+
+                    #metas-ods2{
+                        display: block;
+                        width: 300px;
+                        height: 300px;
+                     }
                 
                 
                     .red{
@@ -179,8 +216,8 @@
                     }
                 
                     .text-final p {
-                        font-size: 20px;
-                        line-height: 30px;
+                        font-size: 15px;
+                        line-height: 25px;
                         padding-top: 2rem;
                         
                     }
