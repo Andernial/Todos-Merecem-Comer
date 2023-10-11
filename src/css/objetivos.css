@@ -1,3 +1,8 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+
 .area-banner2{
         background-color: rgb(41, 40, 40);
         display: flex;
@@ -17,6 +22,8 @@
     color: white;
     margin-top: 50px;
     line-height: 1.1;
+    font-family: 'Mate SC', serif;
+    font-weight: 100;
 }
 
 .content-obj{
