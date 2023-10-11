@@ -82,8 +82,8 @@
 }
 
 #metas-ods{
-    width: 1500px;
-    height: 1000px;
+    width: 1200px;
+    height: 800px;
 }
 
 .obj-content{
@@ -228,3 +228,13 @@
                 }
 
                    
+
+                @media only screen and (max-width: 2000px) and (min-width: 1700px) {
+
+                #metas-ods{
+                    width: 1500px;
+                    height: 1000px;
+                }
+
+
+            }
