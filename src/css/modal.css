@@ -1,9 +1,24 @@
+.main-header{
+    height: 8.6%;
+    padding-right: 1%;
+}
+
+.titulo-pagina{
+    font-size:100%;
+
+}
+
+.link-menu{
+    font-size: 115% ;
+}
+
+
 .modal{
     display: none;
     justify-content: center;
     align-items: center;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     left: 0;
     top: 0;
     width: 100%;
@@ -14,8 +29,8 @@
 
 .conteudo-modal{
    background-color: white;
-   width: 100vh;
-   height: 80vh;  
+   width: 50%;
+   height: 80%;  
    overflow: auto;  
    border-radius: 5px;
 }
@@ -23,11 +38,14 @@
 .close-modal{
     display: flex;
     justify-content: flex-end;
-    padding-top: 1rem;
+    padding-top: 10%;
     padding-right: 1rem;
     
 }
 
+#close-modal-ne, #close-modal-no, #close-modal-sul, #close-modal-co, #close-modal-sd {
+    width: 1.2rem;
+}
 
 #close-modal-no, #close-modal-ne, #close-modal-co, #close-modal-sd, #close-modal-sul{
     background-color: rgb(255, 255, 255);
@@ -53,48 +71,49 @@
 
 .ongs-distribuiton{
     background-color: white;
-    height: 100vh;
+    height: auto;
+    width: 30%;
     transition: 0.4s;
-    box-shadow:  inset 44px -9px 59px -56px rgba(0, 0, 0, 0.986);  
+    
 }
 
 .ongs-distribuiton:hover{
-    box-shadow: 0px 0px 49px -6px rgba(0, 0, 0, 0.986);
+
     transition: 0.4s;  
 }
 
 .ong-div{
     display: flex;
-    padding: 2rem;
+    padding: 15%;
     flex-direction: column;
 }
 
 
 
 .ong-image{
-    padding: 1rem;
-    height: 8rem;
-    width: 8rem;
+    padding: 1em;
+    height: 90%;
+    width: 90%;
     transition: 0.4s;
     filter: grayscale(100%)
 }
 
 .ong-image:hover {
-    padding: 1rem;
-    height: 8.5rem;
-    width: 8.5rem;
+    padding: 1em;
+    height: 98%;
+    width: 98%;
     filter: grayscale(0%)
 }
 
 .region-info{
     position: relative;
-    width: 90rem;
+    width: 80%;
     margin-top: 2rem;
 }
 
 .info{
-    font-size: 1.5rem;
-    margin: 1rem;
+    font-size: 100%;
+    margin: 2%;
     background-color: white;
     box-shadow: inset 0px 1px 62px -20px rgba(0,0,0,0.67);   
 
@@ -102,16 +121,16 @@
 
 
 .region-sul-name{
-    margin-left: 17rem;
+    margin-left:38%;
     border-right: 4px solid;
-    width: 9ch;
+    width: 10ch;
     white-space: nowrap; 
     overflow: hidden; 
-    animation: typing 1s steps(9), blinking 0.5s infinite step-end alternate;
+    animation: typing 1.5s steps(18), blinking 0.5s infinite step-end alternate;
 }
 
 .region-sudeste-name{
-    margin-left: 15rem;
+    margin-left:35%;
     border-right: 4px solid;
     width: 13ch;
     white-space: nowrap; 
@@ -120,7 +139,7 @@
 }
 
 .region-sudeste-name{
-    margin-left: 15rem;
+    margin-left:35%;
     border-right: 4px solid;
     width: 13ch;
     white-space: nowrap; 
@@ -129,7 +148,7 @@
 }
 
 .region-centro-oeste-name{
-    margin-left: 13rem;
+    margin-left:32%;
     border-right: 4px solid;
     width: 18ch;
     white-space: nowrap; 
@@ -138,7 +157,7 @@
 }
 
 .region-norte-name{
-    margin-left: 15rem;
+    margin-left:35%;
     border-right: 4px solid;
     width: 12ch;
     white-space: nowrap; 
@@ -147,7 +166,7 @@
 }
 
 .region-nordeste-name{
-    margin-left: 14rem;
+    margin-left:35%;
     border-right: 4px solid;
     width: 14ch;
     white-space: nowrap; 
@@ -156,40 +175,45 @@
 }
 
 .data{
-   margin-left: 2.2rem; 
+   margin-left: 8%; 
    cursor: pointer;
+}
+
+.title{
+    font-size: 80%;
 }
 
 
 .graphic-explain{
-    font-size: 0.8rem;
+    font-size: 60%;
 }
 
 .first-p{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin: 1.5rem;
-    width: 50ch;
-    white-space: nowrap;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 3%;
+    width: 90%;
+    white-space: wrap;
     overflow: hidden; 
     animation: typing 1s steps(50);
 }
 
 .second-p {
-    margin: 1.5rem;
-    width: 50ch;
-    white-space: nowrap;
+    margin: 3%;
+    width: 90%;
+    white-space: wrap;
     overflow: hidden; 
     animation: typing 1.5s steps(50);
-    padding-bottom: 1rem;
+    padding-bottom:  3%;
 }
 
 
 .more-ongs{
     display: flex;
     justify-content: center;
-    margin-left: 1rem;
-    padding: 0.8rem;
+    font-size: 80%;
+    margin-left: 11%;
+    padding: 8%;
     background-color: rgb(255, 255, 255);
     box-shadow: 7px 8px 0px 0px rgb(200, 199, 199);
     cursor: pointer;
@@ -205,25 +229,80 @@
 }
 
 .some-ongs{
-    margin-left: 1rem;
-    font-size: 1rem;
+    margin-left: 10%;
+    font-size: 90%;
 }
 
+@media screen and (max-width: 500px){
+    .title{
+        font-size: 40%;
+    }
+    .conteudo-modal{
+        background-color: white;
+        width: 90%;
+        height: 80%;  
+        overflow: auto;  
+        border-radius: 5px;
+     }
 
+     .some-ongs{
+        margin-left: 5%;
+        font-size: 50%;
+     }
+
+     .more-ongs{
+        display: flex;
+        justify-content: center;
+        font-size: 30%;
+        margin-left: 20%;
+        padding: 8%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 7px 8px 0px 0px rgb(200, 199, 199);
+        cursor: pointer;
+    
+    }
+
+    .more-ongs:active{
+        box-shadow: inherit;
+        font-size: 30%;
+        box-shadow: inset 5px 5px 0px 3px rgb(200, 199, 199);
+        cursor: progress;
+    }
+        
+
+    .ong-image{
+        padding: 1%;
+        height: 120%;
+        width: 120%;
+        transition: 0.4s;
+        filter: grayscale(100%)
+    }
+
+    .region-centro-oeste-name{
+        margin-left:32%;
+        border-right: 4px solid;
+        width: 18ch;
+        white-space: nowrap; 
+        overflow: hidden; 
+        animation: typing 1.5s steps(18), blinking 0.5s infinite step-end alternate;
+    }
+
+    .region-sul-name{
+        margin-left:38%;
+        border-right: 4px solid;
+        width: 10ch;
+        white-space: nowrap; 
+        overflow: hidden; 
+        animation: typing 1.5s steps(18), blinking 0.5s infinite step-end alternate;
+    }
+
+    
+}
 
 @keyframes typing{
-    from {
+    from{
         width: 0;
-
     }
 }
-
-@keyframes blinking{
-    50% {
-        border-color: transparent;
-    }
-}
-
-
 
 

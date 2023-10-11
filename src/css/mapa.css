@@ -3,8 +3,10 @@ body {
     justify-content: center;
 }
 
+
+
 svg{
-    margin-top: 10rem;
+    margin-top: 10%;
     width: 30%;
     height: 50%;
 }
@@ -41,3 +43,12 @@ path {
     stroke-width: 1px;
 }
 
+@media screen and (max-width: 500px){
+   
+    svg{
+        margin-top: 10rem;
+        width: 90%;
+        height: 50%;
+    }
+    
+}
