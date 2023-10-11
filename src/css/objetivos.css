@@ -1,5 +1,5 @@
 .area-banner2{
-        background-color: black;
+        background-color: rgb(41, 40, 40);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -15,6 +15,8 @@
     line-height: 50px;
     padding: 3rem;
     color: white;
+    margin-top: 50px;
+    line-height: 1.1;
 }
 
 .content-obj{
@@ -28,7 +30,7 @@
     flex-direction: column;
     width: 100%;
     height: 500px;
-    background-color: rgb(246, 248, 102);
+    background-color:#e2df36;
 }
 
 
@@ -44,11 +46,16 @@
 
 .obj-text{
     display: flex;
-    background-color: brown;
+    background-color: rgb(28, 250, 20);
     width: 50%;
     padding: 3rem;
-    color: white;
     margin-bottom: 1rem;
+
+}
+
+.side-text{
+    font-size: 23px;
+    line-height: 1.5;
 }
 
 .obj-text2{
@@ -84,7 +91,7 @@
 
    
 .red{
-    color: rgb(237, 47, 63);
+    color: rgb(33, 101, 189);
     font-size: 50px; 
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
