@@ -22,7 +22,7 @@ const botao = document.querySelectorAll(".more-ongs")
 
 for (let i = 0; i < botao.length; i++) {
     botao[i].addEventListener('click', () =>{
-        location.href = "./Iniciativas.html"
+        location.href = "Iniciativas.html"
     })
     
 }
