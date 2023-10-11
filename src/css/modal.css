@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@600&family=Roboto+Flex:opsz@8..144&display=swap');
+
 .main-header{
     height: 8.6%;
     padding-right: 1%;
@@ -121,6 +123,7 @@
 
 
 .region-sul-name{
+    font-family: 'Roboto Flex', sans-serif;
     margin-left:38%;
     border-right: 4px solid;
     width: 10ch;
@@ -130,6 +133,7 @@
 }
 
 .region-sudeste-name{
+    font-family: 'Roboto Flex', sans-serif;
     margin-left:35%;
     border-right: 4px solid;
     width: 13ch;
@@ -139,6 +143,7 @@
 }
 
 .region-sudeste-name{
+    font-family: 'Roboto Flex', sans-serif;
     margin-left:35%;
     border-right: 4px solid;
     width: 13ch;
@@ -148,6 +153,7 @@
 }
 
 .region-centro-oeste-name{
+    font-family: 'Roboto Flex', sans-serif;
     margin-left:32%;
     border-right: 4px solid;
     width: 18ch;
@@ -157,6 +163,7 @@
 }
 
 .region-norte-name{
+    font-family: 'Roboto Flex', sans-serif;
     margin-left:35%;
     border-right: 4px solid;
     width: 12ch;
@@ -166,6 +173,7 @@
 }
 
 .region-nordeste-name{
+    font-family: 'Roboto Flex', sans-serif;
     margin-left:35%;
     border-right: 4px solid;
     width: 14ch;
@@ -189,6 +197,7 @@
 }
 
 .first-p{
+    font-family: 'Roboto Flex', sans-serif;
     padding-top: 3%;
     padding-bottom: 3%;
     margin: 3%;
@@ -199,6 +208,7 @@
 }
 
 .second-p {
+    font-family: 'Roboto Flex', sans-serif;
     margin: 3%;
     width: 90%;
     white-space: wrap;
@@ -210,6 +220,7 @@
 
 .more-ongs{
     display: flex;
+    font-family: 'Roboto Flex', sans-serif;
     justify-content: center;
     font-size: 80%;
     margin-left: 11%;
@@ -220,6 +231,7 @@
 
 }
 .more-ongs:active{
+    font-family: 'Roboto Flex', sans-serif;
     box-shadow: inherit;
     font-size: 0.8rem;
     box-shadow: inset 5px 5px 0px 3px rgb(200, 199, 199);
@@ -229,6 +241,7 @@
 }
 
 .some-ongs{
+    font-family: 'Roboto Flex', sans-serif;
     margin-left: 10%;
     font-size: 90%;
 }
@@ -251,6 +264,7 @@
      }
 
      .more-ongs{
+        font-family: 'Roboto Flex', sans-serif;
         display: flex;
         justify-content: center;
         font-size: 30%;
@@ -263,6 +277,8 @@
     }
 
     .more-ongs:active{
+        
+        font-family: 'Roboto Flex', sans-serif;
         box-shadow: inherit;
         font-size: 30%;
         box-shadow: inset 5px 5px 0px 3px rgb(200, 199, 199);
@@ -271,6 +287,7 @@
         
 
     .ong-image{
+        font-family: 'Roboto Flex', sans-serif;
         padding: 1%;
         height: 120%;
         width: 120%;
@@ -279,6 +296,7 @@
     }
 
     .region-centro-oeste-name{
+        font-family: 'Roboto Flex', sans-serif;
         margin-left:32%;
         border-right: 4px solid;
         width: 18ch;
@@ -288,6 +306,7 @@
     }
 
     .region-sul-name{
+        font-family: 'Roboto Flex', sans-serif;
         margin-left:38%;
         border-right: 4px solid;
         width: 10ch;
