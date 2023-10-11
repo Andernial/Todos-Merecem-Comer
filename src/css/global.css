@@ -382,7 +382,7 @@ nav a {
 }
 
 #imagem-conteudos2 {
-    width: 400px;
+    width: 500px;
     height: 700px;
 }
 
@@ -566,8 +566,8 @@ footer {
 
 
     #imagem-conteudos2 {
-        max-width: 281px;
-        max-height: 200px;
+        max-width: 300px;
+        max-height: 400px;
     }
 
     .content3>h1 {
