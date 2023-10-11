@@ -74,6 +74,7 @@ path {
     
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 500px){
 
     .map-description{
@@ -105,3 +106,37 @@ path {
         fill: green;
     }
 }
+=======
+
+@media only screen and (min-device-width: 0px) 
+                   and (max-device-width: 1230px) 
+                   and (orientation: landscape) {
+
+                    svg{
+                        margin-top: 5rem;
+                        width: 35%;
+                        height: 50%;
+                    }
+
+                    .regiao_norte .estado{
+                        fill: red;
+                    }
+                    
+                    .regiao_nordeste .estado{
+                        fill: red;
+                    }
+                    
+                    .regiao_centro_oeste .estado{
+                        fill: rgb(255, 183, 0);
+                    }
+                    
+                    .regiao_sudeste .estado{
+                        fill: #21cc32;
+                    }
+                    
+                    .regiao_sul .estado{
+                        fill: green;
+                    }
+
+                   }
+>>>>>>> 7753d63cba825534bafe027ea3e8d50a646f03f6

@@ -11,7 +11,7 @@
 }
 
 .link-menu{
-    font-size: 115% ;
+    font-size: 25px ;
 }
 
 
@@ -317,6 +317,81 @@
 
     
 }
+
+@media only screen and (min-device-width: 0px) 
+                   and (max-device-width: 1230px) 
+                   and (orientation: landscape) {
+
+                    .title{
+                        font-size: 40%;
+                    }
+                    .conteudo-modal{
+                        background-color: white;
+                        width: 90%;
+                        height: 80%;  
+                        overflow: auto;  
+                        border-radius: 5px;
+                     }
+                
+                     .some-ongs{
+                        margin-left: 5%;
+                        font-size: 50%;
+                     }
+                
+                     .more-ongs{
+                        font-family: 'Roboto Flex', sans-serif;
+                        display: flex;
+                        justify-content: center;
+                        font-size: 30%;
+                        margin-left: 20%;
+                        padding: 8%;
+                        background-color: rgb(255, 255, 255);
+                        box-shadow: 7px 8px 0px 0px rgb(200, 199, 199);
+                        cursor: pointer;
+                    
+                    }
+                
+                    .more-ongs:active{
+                        
+                        font-family: 'Roboto Flex', sans-serif;
+                        box-shadow: inherit;
+                        font-size: 30%;
+                        box-shadow: inset 5px 5px 0px 3px rgb(200, 199, 199);
+                        cursor: progress;
+                    }
+                        
+                
+                    .ong-image{
+                        font-family: 'Roboto Flex', sans-serif;
+                        padding: 1%;
+                        height: 120%;
+                        width: 120%;
+                        transition: 0.4s;
+                        filter: grayscale(100%)
+                    }
+                
+                    .region-centro-oeste-name{
+                        font-family: 'Roboto Flex', sans-serif;
+                        margin-left:32%;
+                        border-right: 4px solid;
+                        width: 18ch;
+                        white-space: nowrap; 
+                        overflow: hidden; 
+                        animation: typing 1.5s steps(18), blinking 0.5s infinite step-end alternate;
+                    }
+                
+                    .region-sul-name{
+                        font-family: 'Roboto Flex', sans-serif;
+                        margin-left:38%;
+                        border-right: 4px solid;
+                        width: 10ch;
+                        white-space: nowrap; 
+                        overflow: hidden; 
+                        animation: typing 1.5s steps(18), blinking 0.5s infinite step-end alternate;
+                    }
+                
+
+                   }
 
 @keyframes typing{
     from{

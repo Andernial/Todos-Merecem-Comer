@@ -1,7 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
-  
-  @import url('https://fonts.googleapis.com/css2?family=Enriqueta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta&display=swap');
 
 
 
@@ -21,6 +20,7 @@
     height: 50vw;
     width: 100%;
     overflow: hidden;
+    background-color: #F5F5F5;
 }
 
 .img-container {
@@ -31,6 +31,10 @@
 
 .banner-img {
     width: 100%;
+}
+
+.information p {
+    font-size: 20px;
 }
 
 @keyframes slide {
@@ -115,7 +119,7 @@ nav a {
 
 .link-menu:hover {
     color: #ffffff;
-   transition: 0.5s;
+    transition: 0.5s;
 }
 
 .link-menu::after {
@@ -126,8 +130,8 @@ nav a {
     border-radius: 100px;
     transition: all 0.5s ease;
     background-color: #cfc91b97;
-   
-    
+
+
 }
 
 .link-menu:hover::after {
@@ -171,29 +175,28 @@ nav a {
 }
 
 
-.information{
+.information {
     font-size: 20px;
 }
 
 
-.titulo-h1{
+.titulo-h1 {
     text-align: center;
     font-size: 50px;
     margin-top: 35px;
     margin-bottom: 20px;
 }
 
-.subtitle{
-  
+.subtitle {
+
     width: 50%;
     padding-left: 10rem
-
 }
 
-.subtitle-p{
+.subtitle-p {
     font-size: 30px;
     margin-top: 50px;
-   
+
 }
 
 .content4 {
@@ -230,8 +233,8 @@ nav a {
     font-style: normal;
     font-family: 'Roboto Flex', sans-serif;
     color: #333333;
-    
-   
+
+
 }
 
 .block-text {
@@ -239,7 +242,8 @@ nav a {
     font-size: 20px;
     line-height: 30px;
     padding: 3rem;
-    font-style: italic;
+    font-family: 'Roboto Flex', sans-serif;
+
 }
 
 .text-information {
@@ -247,6 +251,48 @@ nav a {
     padding: 2rem;
     padding-left: 10rem;
     font-style: italic;
+}
+
+.span-information {
+    color: rgb(214, 6, 6);
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+}
+
+.span-underline {
+    font-family: 'Roboto Flex', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: rgb(224, 4, 4);
+
+}
+
+strong {
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+
+.span-yellow {
+    font-family: 'Roboto Flex', sans-serif;
+    color: #ecde16;
+    font-weight: 700;
+}
+
+.span-orange {
+    font-family: 'Roboto Flex', sans-serif;
+    color: rgb(241, 160, 8);
+    font-weight: 700;
+}
+
+.span-red {
+    color: rgb(226, 6, 6);
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+
+}
+
+.span-link {
+    font-family: 'Roboto Flex', sans-serif;
+
 }
 
 .conteudos-image {
@@ -347,6 +393,10 @@ nav a {
     align-items: center;
 }
 
+.mapa-h1 {
+    font-size: 40px;
+}
+
 .content3-block {
     display: flex;
     justify-content: center;
@@ -395,10 +445,14 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
+    height: 22px;
 }
 
 
 @media screen and (max-width: 500px) {
+
+
+
 
     nav {
         background-color: #e6e85b;
@@ -507,7 +561,7 @@ footer {
         width: 70%;
     }
 
-    .titulo-h1{
+    .titulo-h1 {
         font-size: 26px;
     }
 
@@ -618,23 +672,25 @@ footer {
         line-height: 25px;
     }
 
-    .section3-text{
+    .section3-text {
         padding: 2rem;
     }
 
-    .information{
-        font-size: 16px;
+
+    .information p {
+        font-size: 15px;
     }
+
 }
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 699px) and (orientation: landscape) {
+@media only screen and (min-device-width: 0px) and (max-device-width: 1230px) and (orientation: landscape) {
 
     nav {
         background-color: #e6e85b;
         padding: 0.4rem;
     }
 
-    .container{
+    .container {
         height: 50vw;
     }
 
@@ -721,12 +777,6 @@ footer {
 
     }
 
-
-
-
-
-
-
     #imagem-conteudos {
         width: 300px;
         height: 200px;
@@ -769,6 +819,7 @@ footer {
         width: 90%;
         word-wrap: break-word
     }
+
 
     .section3-content {
         flex-direction: column;
@@ -831,6 +882,7 @@ footer {
 
 
 
+
     .content3-text>p {
         font-size: 15px;
     }
@@ -867,4 +919,37 @@ footer {
 
 .show {
     opacity: 1;
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 1600px) {
+    .side-text {
+        font-size: 26px;
+    }
+
+    .left-block,
+    .right-block {
+        font-size: 26px;
+    }
+
+    .section3-text h1 {
+        font-size: 27px;
+    }
+
+    .information p {
+        font-size: 25px;
+    }
+
+    .block-text,
+    .content3-text2 {
+        font-size: 25px;
+    }
+
+    .content3-text {
+        width: 163ch;
+    }
+
+    footer {
+        font-size: 25px;
+        height: 35px;
+    }
 }
