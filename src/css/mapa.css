@@ -74,7 +74,6 @@ path {
     
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 500px){
 
     .map-description{
@@ -86,6 +85,9 @@ path {
         transition: 0.4s;
     }
 
+    .map-description-tutorial{
+        font-size: 80%;
+    }
     .regiao_norte .estado{
         fill: red;
     }
@@ -106,12 +108,24 @@ path {
         fill: green;
     }
 }
-=======
 
 @media only screen and (min-device-width: 0px) 
                    and (max-device-width: 1230px) 
                    and (orientation: landscape) {
 
+                    .map-description{
+                        font-family: 'Roboto Flex', sans-serif;
+                        position: absolute;
+                        margin-top: 5%;
+                        font-size: 70%;
+                        cursor: pointer;
+                        transition: 0.4s;
+                    }
+                
+                    .map-description-tutorial{
+                        font-size: 80%;
+                    }
+                    
                     svg{
                         margin-top: 5rem;
                         width: 35%;
@@ -139,4 +153,3 @@ path {
                     }
 
                    }
->>>>>>> 7753d63cba825534bafe027ea3e8d50a646f03f6
